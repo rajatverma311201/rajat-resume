@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+:root {
+    --color-primary: #323335;
+    --font-big: 1.35rem;
+    --font-medium: 1.2rem;
+    --font-small: 1.05rem;
+}
+* {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    color: var(--color-primary);
+    padding: 0.25rem 0.25rem;
+}
+.top-container {
+    /* border-bottom: 2px solid #183153; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1rem;
+    align-items: center;
+}
+.contacts-container li,
+.contacts-container a {
+    color: #183153;
+    font-weight: 500;
+}
+.phone,
+.address {
+    font-size: var(--font-medium);
+}
+.address-container {
+}
+.contacts-container ul {
+    list-style-type: none;
+}
+.contacts-container li {
+    margin: 2.5px;
+}
+.name-container {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.name {
+    text-transform: uppercase;
+    color: #183153;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education-1,
+.education-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.college-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+i {
+    color: #183153;
+}
+
+.container,
+.education-container {
+    padding: 0.5rem 1rem;
+}
+.technical-skills-container > ul {
+    padding-left: 1.5rem;
+}
+
+.container-heading {
+    border-bottom: 2px solid #183153;
+    text-transform: uppercase;
+    font-size: var(--font-big);
+    font-weight: 700;
+    color: #183153;
+    margin-bottom: 0.5rem;
+}
+.heading {
+    font-size: var(--font-medium);
+    font-weight: 500;
+    padding-left: 0.5rem;
+}
+li span {
+    font-weight: 500;
+    /* color: #183153; */
+    margin-right: 0.5rem;
+}
+
+.content {
+    font-size: var(--font-small);
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+}
