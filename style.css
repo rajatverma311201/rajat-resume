@@ -69,6 +69,13 @@ body {
     font-weight: 500;
 }
 
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+}
 i {
     color: #183153;
 }
