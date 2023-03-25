@@ -42,13 +42,13 @@ body {
     margin: 2.5px;
 }
 .name-container {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 0.5rem;
 }
 .name {
     text-transform: uppercase;
     color: #183153;
-    font-size: 2.75rem;
+    font-size: 2.25rem;
     font-weight: 700;
 }
 
@@ -82,9 +82,10 @@ i {
 
 .container,
 .education-container {
-    padding: 0.5rem 1rem;
+    padding: 0.1rem 0.75rem;
 }
-.technical-skills-container > ul {
+.technical-skills-container > ul,
+.por-container ul {
     padding-left: 1.5rem;
 }
 
@@ -111,4 +112,22 @@ li span {
     font-size: var(--font-small);
     padding-left: 2rem;
     margin-bottom: 0.5rem;
+}
+.por-container ul {
+    margin-left: padd;
+}
+.por-heading {
+    font-size: var(--font-small);
+    font-weight: 500;
+    margin-left: 0.5rem;
+    /* scroll-padding: ; */
+}
+.por-heading:not(:last-child) {
+    margin-bottom: 0.2rem;
+}
+
+.experience-date {
+    position: absolute;
+    right: 25px;
+    font-size: 16px;
 }
