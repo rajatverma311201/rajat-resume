@@ -5,6 +5,10 @@
     --font-medium: 1.2rem;
     --font-small: 1.05rem;
 }
+
+html {
+    font-size: 80%;
+}
 * {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
@@ -33,13 +37,17 @@ body {
 .address {
     font-size: var(--font-medium);
 }
+.phone {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 .address-container {
 }
 .contacts-container ul {
     list-style-type: none;
 }
 .contacts-container li {
-    margin: 2.5px;
+    margin: 5px;
 }
 .name-container {
     font-size: 1.25rem;
@@ -83,6 +91,7 @@ i {
 .container,
 .education-container {
     padding: 0.1rem 0.75rem;
+    padding-bottom: 0;
 }
 .technical-skills-container > ul,
 .por-container ul {
@@ -96,6 +105,8 @@ i {
     font-weight: 700;
     color: #183153;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    /* padding-left: 1rem; */
 }
 .heading {
     font-size: var(--font-medium);
@@ -105,7 +116,8 @@ i {
 li span {
     font-weight: 500;
     /* color: #183153; */
-    margin-right: 0.5rem;
+
+    margin-right: 0.25rem;
 }
 
 .content {
@@ -129,5 +141,5 @@ li span {
 .experience-date {
     position: absolute;
     right: 25px;
-    font-size: 16px;
+    font-size: 1rem;
 }
