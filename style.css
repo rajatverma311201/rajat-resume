@@ -4,6 +4,7 @@
     --font-big: 1.35rem;
     --font-medium: 1.2rem;
     --font-small: 1.05rem;
+    --color-secondary: #183153;
 }
 
 html {
@@ -56,7 +57,7 @@ body {
 .name {
     text-transform: uppercase;
     color: #183153;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
@@ -142,4 +143,21 @@ li span {
     position: absolute;
     right: 25px;
     font-size: 1rem;
+}
+
+.portfolio {
+    margin-top: 1rem !important;
+    display: block;
+}
+.portfolio span {
+    margin-top: 0.75rem;
+    font-size: 1.1rem;
+    background-color: var(--color-secondary);
+    color: white !important;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
