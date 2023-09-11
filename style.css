@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600;8..60,700&display=swap");
+
 :root {
     --color-primary: #323335;
     --font-big: 1.35rem;
@@ -11,7 +12,7 @@ html {
     font-size: 80%;
 }
 * {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Source Serif 4", serif;
     font-weight: 400;
     padding: 0;
     margin: 0;
@@ -33,10 +34,13 @@ body {
 .contacts-container a {
     color: #183153;
     font-weight: 500;
+    font-size: 1.1rem;
 }
 .phone,
 .address {
     font-size: var(--font-medium);
+    font-weight: 500;
+    /* font-size: 1.1rem; */
 }
 .phone {
     margin-bottom: 5px;
@@ -69,13 +73,15 @@ body {
 
 .education-1,
 .education-2 {
+    padding-left: 0.5rem;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .college-name {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 a,
@@ -111,11 +117,11 @@ i {
 }
 .heading {
     font-size: var(--font-medium);
-    font-weight: 500;
+    font-weight: 600;
     padding-left: 0.5rem;
 }
 li span {
-    font-weight: 500;
+    font-weight: 600;
     /* color: #183153; */
 
     margin-right: 0.25rem;
@@ -125,18 +131,6 @@ li span {
     font-size: var(--font-small);
     padding-left: 2rem;
     margin-bottom: 0.5rem;
-}
-.por-container ul {
-    margin-left: padd;
-}
-.por-heading {
-    font-size: var(--font-small);
-    font-weight: 500;
-    margin-left: 0.5rem;
-    /* scroll-padding: ; */
-}
-.por-heading:not(:last-child) {
-    margin-bottom: 0.2rem;
 }
 
 .experience-date {
@@ -150,7 +144,7 @@ li span {
     display: block;
 }
 .portfolio span {
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
     font-size: 1.1rem;
     background-color: var(--color-secondary);
     color: white !important;
@@ -160,4 +154,8 @@ li span {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+.por-list > li {
+    font-weight: 500;
 }
